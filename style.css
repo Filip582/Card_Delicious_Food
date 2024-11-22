@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap) layer(init);
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #a876e9;
+}
+
+.card{
+    display: inline-block;
+    margin: 2em;
+    align-items: center;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card__header{
+    
+}
+
+.card__header img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 250px;
+}
+
+.card__content{
+    padding: 1em;
+}
+
+.button{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    background: linear-gradient(to bottom, #f7f133, #f4b70e);
+    border-radius: 50px;
+    color: white;
+}
+
+.card__footer{
+    padding: 1em;
+}
+.card__footer img{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.card__footer p{
+    margin: 0;
+}
+
+.card__footer .profile-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1em;
+}
